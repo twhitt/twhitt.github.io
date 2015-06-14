@@ -1,0 +1,85 @@
+/*
+Body Font Size = 14px
+	 Font Family = "Times New Roman", serif
+	 Font Color = black
+	 Background: #F3EBE9
+
+H1 Font Size = 50px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   color: #FFFFFF;	(White)
+
+H2: Font Size = 18px
+	Text-Transform: uppercase;
+	Font-Family: cursive, Helvetica, sans-serif;
+	*/
+
+body {
+	background-image: url("../images/pattern1.png");
+	font-size: 14px;
+	font-family: "Times New Roman", serif;
+	color: black;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: cursive, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+p {
+	padding-top: 10px;
+}
+
+#container {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+.header {
+	background-color: #FF6A64;
+	padding-top: 10px;	
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.about{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+}
+
+.underline-1 {
+	text-decoration: underline;
+	padding-top: 20px;
+}
+
+.underline-2 {
+	text-decoration: underline;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.footer {
+	background-color: #FF6A64;
+	color: #FFFFFF;
+	padding: 10px 20px 30px 20px;
+	text-align: right;
+}
+
+.small-img {
+	width: 195px;
+	border: 3px solid grey;
+	padding: 1px;
+}
+
